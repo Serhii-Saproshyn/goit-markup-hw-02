@@ -1,0 +1,78 @@
+/*
+#2F303A первая секция бекцвет + футер
+#F5F5F5 вторая секция бекцв
+#F5F4FA третья секция бек */
+
+
+body {
+   background-color: #FFFFFF; 
+   color: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+footer{
+background-color: #2F303A;
+}
+
+:root {
+    --main-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --link-color: #212121;
+    --site-contacts-color: #757575;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.logo-accent-second {
+    color: #000000;
+}
+
+.paragraph{
+    color: var(--site-contacts-color);
+}
+.link {
+    color: var(--link-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.site-contacts .link{
+color: var(--site-contacts-color);
+}
+.site-contacts-footer .link.address{
+    color: var(--main-color);
+}
+.site-contacts-footer .link.address-second{
+    color: var(--footer-link-color);
+}
+
+.link:hover, .link:focus {
+    color: var(--accent-color);
+}
+
+.button.primary {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+
+.button:hover, .button:focus {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+
+.sectionpf-title {
+    color: var(--link-color);
+}
+
+.paragraphpf{
+    color: var(--site-contacts-color);
+}

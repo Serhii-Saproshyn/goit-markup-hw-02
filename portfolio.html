@@ -5,85 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Студія</title>
+    <title>Портфоліо</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a lang="en" href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+            <a lang="en" class="logo" href="./index.html"><span class="logo-accent">Web</sapn><span
+                        class="logo-accent-second">Studio</span></a>
+            <ul class="site-nav">
+                <li><a class="link" href="./index.html">Студія</a></li>
+                <li><a class="link current" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="link" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="site-contacts">
+            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
 
 
     </header>
     <main>
         <section>
+            <h1>Приклади</h1>
             <ul>
-                <li><button class="button">Усі</button></li>
-                <li><button class="button">Веб-сайти</button></li>
-                <li><button class="button">Додатки</button></li>
-                <li><button class="button">Дизайн</button></li>
-                <li><button class="button">Маркетинг</button></li>
+                <li><button type="button" class="button secondary">Усі</button></li>
+                <li><button type="button" class="button secondary">Веб-сайти</button></li>
+                <li><button type="button" class="button secondary">Додатки</button></li>
+                <li><button type="button" class="button secondary">Дизайн</button></li>
+                <li><button type="button" class="button secondary">Маркетинг</button></li>
             </ul>
             <ul>
                 <li><a href="http://google.com"><img src="./images/pf1img.jpg" alt="приклад на ноутбуці" width="370">
-                        <h2>Технокряк</h2>
-                        <p>Веб-сайт</p>
+                        <h2 class="sectionpf-title">Технокряк</h2>
+                        <p class="paragraphpf">Веб-сайт</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf2img.jpg" alt="приклад постеру баскетбол" width="370">
-                        <h2>Постер New Orlean vs Golden Star</h2>
-                        <p>Дизайн</p>
+                        <h2 class="sectionpf-title">Постер New Orlean vs Golden Star</h2>
+                        <p class="paragraphpf">Дизайн</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf3img.jpg" alt="логотип додаток ресторану" width="370">
-                        <h2>Ресторан Seafood</h2>
-                        <p>Додаток</p>
+                        <h2 class="sectionpf-title">Ресторан Seafood</h2>
+                        <p class="paragraphpf">Додаток</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf4img.jpg" alt="навушники" width="370">
-                        <h2>Проєкт Prime</h2>
-                        <p>Маркетинг</p>
+                        <h2 class="sectionpf-title">Проєкт Prime</h2>
+                        <p class="paragraphpf">Маркетинг</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf5img.jpg" alt="коробки" width="370">
-                        <h2>Проєкт Boxes</h2>
-                        <p>Додаток</p>
+                        <h2 class="sectionpf-title">Проєкт Boxes</h2>
+                        <p class="paragraphpf">Додаток</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf6img.jpg" alt="веб-сайт приклад на моніторі" width="370">
-                        <h2>Inspiration has no Borders</h2>
-                        <p>Веб-сайт</p>
+                        <h2 class="sectionpf-title" lang="en">Inspiration has no Borders</h2>
+                        <p class="paragraphpf">Веб-сайт</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf7img.jpg" alt="розгорнута книжка" width="370">
-                        <h2>Видання Limited Edition</h2>
-                        <p>Дизайн</p>
+                        <h2 class="sectionpf-title" lang="en">Видання Limited Edition</h2>
+                        <p class="paragraphpf">Дизайн</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf8img.jpg" alt="бірка" width="370">
-                        <h2>Проєкт LAB</h2>
-                        <p>Маркетинг</p>
+                        <h2 class="sectionpf-title">Проєкт LAB</h2>
+                        <p class="paragraphpf">Маркетинг</p>
                     </a></li>
                 <li><a href=""><img src="./images/pf9img.jpg" alt="людина працює за ноутбуком" width="370">
-                        <h2>Growing Business</h2>
-                        <p>Додаток</p>
+                        <h2 class="sectionpf-title" lang="en">Growing Business</h2>
+                        <p class="paragraphpf">Додаток</p>
                     </a></li>
             </ul>
         </section>
     </main>
     <footer>
-        <a lang="en" href="./index.html">WebStudio</a>
+        <a lang="en" class="logo" href="./index.html"><span class="logo-accent">Web</sapn><span
+                    class="logo-accent-second">Studio</span></a>
         <address>
-            <ul>
+            <ul class="site-contacts-footer">
 
-                <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                <li><a class="link address" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
                         rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі
                         Украінки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="link address-second" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link address-second" href="tel:+380961111111">+38 096 111 11 11</a></li>
 
             </ul>
         </address>
