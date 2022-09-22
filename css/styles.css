@@ -1,3 +1,5 @@
+/* вибачаюсь за такий css, все працює але бардак.. дуже збивало те що кольори усюди різні... дайте будь ласка вказівки що виправити */
+
 body {
    background-color: #FFFFFF; 
    color: #212121;
@@ -23,6 +25,9 @@ ul {
     --footer-link-color: rgba(255, 255, 255, 0.6);
     --back-color-first: #2F303A;
     --back-color-second: #F5F4FA;
+}
+a:focus, a:hover {
+
 }
 
 footer {
@@ -106,16 +111,17 @@ footer {
 .site-contacts .link{
 color: var(--site-contacts-color);
 }
-.site-contacts-footer .link.address{
+.link.address{
     color: var(--main-color);
 }
-.site-contacts-footer .link.address-second{
+.address-second{
     color: var(--footer-link-color);
 }
 
 .link:hover, .link:focus {
     color: var(--accent-color);
 }
+
 
 .button {
     cursor: pointer;
@@ -148,7 +154,6 @@ color: var(--site-contacts-color);
     color: var(--main-color);
     background-color: var(--accent-color);
 }
-
 
 
 .examples .examples-title {
