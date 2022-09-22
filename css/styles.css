@@ -1,12 +1,10 @@
-/*
-#2F303A первая секция бекцвет + футер
-#F5F5F5 вторая секция бекцв
-#F5F4FA третья секция бек */
-
-
 body {
    background-color: #FFFFFF; 
    color: #212121;
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   letter-spacing: 0.03em;
 }
 
 a {
@@ -16,9 +14,6 @@ a {
 ul {
     list-style: none;
 }
-footer{
-background-color: #2F303A;
-}
 
 :root {
     --main-color: #FFFFFF;
@@ -26,6 +21,19 @@ background-color: #2F303A;
     --link-color: #212121;
     --site-contacts-color: #757575;
     --footer-link-color: rgba(255, 255, 255, 0.6);
+    --back-color-first: #2F303A;
+    --back-color-second: #F5F4FA;
+}
+
+footer {
+    background-color: var(--back-color-first);
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
 }
 .logo-accent {
     color: var(--accent-color);
@@ -33,6 +41,56 @@ background-color: #2F303A;
 
 .logo-accent-second {
     color: #000000;
+}
+
+.hero{
+    color: var(--main-color) ;
+    background-color: var(--back-color-first);
+}
+
+.hero-title {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.features .features-title {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        text-transform: uppercase;
+}
+.features .paragraph {
+        font-weight: 400;
+        line-height: 1.7;
+}
+
+.section-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+}
+
+.section.new-back {
+    background-color: var(--back-color-second);
+}
+
+.team .team-title {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+}
+
+.team .paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
 }
 
 .paragraph{
@@ -59,9 +117,31 @@ color: var(--site-contacts-color);
     color: var(--accent-color);
 }
 
+.button {
+    cursor: pointer;
+}
 .button.primary {
     color: var(--main-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        align-items: center;
+        letter-spacing: 0.06em;
+        position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+}
+
+.button.secondary {
+    color: var(--link-color);
+    background-color: var(--back-color-second);
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
 }
 
 .button:hover, .button:focus {
@@ -69,10 +149,26 @@ color: var(--site-contacts-color);
     background-color: var(--accent-color);
 }
 
-.sectionpf-title {
+
+
+.examples .examples-title {
     color: var(--link-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-.paragraphpf{
+.paragraph .examples-paragraph{
     color: var(--site-contacts-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+
+.site-nav, .site-contacts {
+    letter-spacing: 0.02em;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
 }
